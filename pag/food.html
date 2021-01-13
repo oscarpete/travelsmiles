@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <title>Food</title>
+    <link href="food.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="">
-                <!-- <img src="img/logo" class="logo" alt=""> Travelsmiles -->
+                <img src="../img/logo" class="logo" alt=""> Travelsmiles
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,44 +37,114 @@
 
 <div class="container">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
+        <!--<ol class="carousel-indicators">
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-        </ol>
+        </ol>-->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://flavorverse.com/wp-content/uploads/2018/11/Falafel-Jordanian-Food.jpg" class="d-block w-100" alt="Falafel">
+                <img src="https://traveler.marriott.com/wp-content/uploads/2019/10/GI_924240792_Jordan_Meze.jpg" class="d-block w-100" alt="Jordanian cuisine">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Falafel</h5>
-                    <p>The most popular breakfast in the country</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://www.chocolatesandchai.com/wp-content/uploads/2017/06/kunafa-1024x683.jpg" class="d-block w-100" alt="Knafeh">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Knafeh</h5>
-                    <p>The sweetest desert your taste buds ever experienced</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flickr_-_cyclonebill_-_Tabbouleh.jpg" class="d-block w-100" alt="Tabouleh">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Tabouleh</h5>
-                    <p>Refreshing refined salad with parsley and bulgur</p>
+                    <h1>Jordanian Food</h1>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <!--<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-        </a>
+        </a>-->
     </div>
 </div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h4>
+                Must try dishes and where to find them !
+            </h4>
+            <p class="how-to-navigate-text">
+                Navigate to resturants advised by locals by clicking on the "Visit" button:
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 mt-5">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+                <img src="https://minimalistbaker.com/wp-content/uploads/2018/03/Hummus-from-Scratch-SQUARE.jpg" class="card-img-top" alt="Hummus">
+                <div class="card-body">
+                    <h5 class="card-title">Hummus</h5>
+                    <p class="card-text">Dip, spread, or savory dish made from cooked, mashed chickpeas blended with tahini, lemon juice, and garlic.</p>
+                    <a href="https://goo.gl/maps/zxjczWEhJJnv45Yc8" class="btn btn-primary">Visit Abu Jbara Resturant</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mt-5">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+                <img src="https://img.cuisineaz.com/660x660/2013-12-20/i86322-falafels-libanais-express.jpg" class="card-img-top" alt="Falafel">
+                <div class="card-body">
+                    <h5 class="card-title">Falafel</h5>
+                    <p class="card-text">Deep-fried balls made from ground chickpeas, fava beans, or both.</p>
+                    <a href="https://g.page/Falafelalquds?share" class="btn btn-primary">Visit Alquds resturant</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mt-5">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+                <img src="https://www.bbcgoodfoodme.com/assets/recipes/20323/original/Seafood-kibbeh.jpg" class="card-img-top" alt="Kibbeh">
+                <div class="card-body">
+                    <h5 class="card-title">Kibbeh</h5>
+                    <p class="card-text">spiced ground meat and grain.</p>
+                    <a href="https://goo.gl/maps/wQ5jkJMSz6z5CgaY9" class="btn btn-primary">Visit Ward Resturant</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mt-5">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="https://i.pinimg.com/originals/5c/52/e4/5c52e4cd9822a681bdd8f2e619c4094d.jpg" class="card-img-top" alt="Knafeh">
+                <div class="card-body">
+                    <h5 class="card-title">Knafeh</h5>
+                    <p class="card-text">Traditional Middle Eastern dessert made with fine semolina dough, soaked in sweet, sugar-based syrup, and layered with cheese</p>
+                    <a href="https://goo.gl/maps/k1ft5aNSt3v9CZYbA" class="btn btn-primary">Visit Habiba Sweets</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 mt-5">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+                <img src="http://globaltableadventure.com/wp-content/uploads/2012/10/qatar.food_.recipe.img_2103.jpg" class="card-img-top" alt="Warak enab">
+                <div class="card-body">
+                    <h5 class="card-title">Warak enab</h5>
+                    <p class="card-text">Grape leaves stuffed with rice and meat or rice and veggies.</p>
+                    <a href="https://goo.gl/maps/frYQV6kGxetvueor8" class="btn btn-primary">Visit Warak enab Resturant</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
