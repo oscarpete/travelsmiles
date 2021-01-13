@@ -1,10 +1,16 @@
 body {
-    background: linear-gradient(0deg, #5c2018 0%,#Bc4639 50%, #f3e0dc 100%) fixed;
+    background: linear-gradient(0deg, #f3e0dc 0%, #d4a59a 30%, #5c2018 100%) fixed;
+
 }
 
 .logo{
     width: 35px;
     padding-right: 5px;
+}
+
+.h4-header {
+font-family: 'Kaushan Script', cursive;
+    color: #fccec8;
 }
 
 .btn-primary {
@@ -20,4 +26,19 @@ body {
 
 .card-body {
     background-color: #f3e0dc;
+
+}
+
+.display-4 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 150px;
+    background-image: linear-gradient(0deg, #99594f 0%, #efbbb0 50%, #f3e0dc 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.lead {
+    color: #f3e0dc;
 }
