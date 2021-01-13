@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(0deg, #5c2018 0%,#Bc4639 50%, #f3e0dc 100%) fixed;
+}
+
+.logo{
+    width: 35px;
+    padding-right: 5px;
+}
+
+.btn-primary {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #f3e0dc;
+}
