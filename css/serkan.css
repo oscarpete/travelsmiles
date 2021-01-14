@@ -5,9 +5,6 @@ body{
   background-color: #F3E0DC;
 }
 
-footer {
-  background-color: grey;
-}
 .logo{
   width: 35px;
   padding-right: 5px;
@@ -17,14 +14,14 @@ footer {
 .container{
   max-width: 100%;
   margin: 0 auto;
-  background: #F3E0DC;;
+  background: #F3E0DC ;
   font-size: 24px;
   padding: 0;
 }
 
 .parallax {
   color: white;
-  background: url("../img/petra2.jpg") no-repeat center;
+  background: url("../img/serkan/petra2.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 800px;
@@ -60,10 +57,17 @@ footer {
 .border {
   border-color: #F3E0DC;
 }
-/* .img1{
-  width: 470px;
-  height: 300px;
-} */
+
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+  opacity: 0.9;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
 
 .btn {
   background-color: #BC4639 ;
@@ -76,6 +80,24 @@ footer {
   color: #F3E0DC;
 }
 
+.preface h1{
+  color: #5C2018;
+}
+
+.preface p{
+  color: #BC4639;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-title {
+  color: #5C2018;
+}
+
+.card-text {
+  color: #BC4639;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
 #gotopbtn{
   position: fixed;
   width: 50px;
@@ -91,5 +113,65 @@ footer {
   line-height: 50px;
   font-size: 30px;
   opacity: 0.7;
+}
+/* footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #5C2018;
+    color: #F3E0DC;
+}
 
+.footer .container-footer:nth-child(1) {
+    border-bottom: dotted 1px #F3E0DC;
+}
+
+.footer-links {
+    color: #F3E0DC;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.form-control {
+    font-size: 15px;
+}
+
+.footer-btn-primary {
+    color: #F3E0DC;
+    background-color: #4285F4;
+    border-color: #4285F4;
+}
+
+.footer-btn-primary:hover {
+    color: #F3E0DC;
+    background-color: #0946a7;
+    border-color: #4285F4;
+}
+
+label {
+    display: none;
+}
+
+/* #logo {
+    display: flex;
+    min-width: 0.5rem;
+}
+
+#logo img {
+    height: 40px;
+    margin: 0 7px;
+} */
+
+.white-icon {
+    filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(238deg) brightness(99%) contrast(103%);
+}
+
+
+#carouselExampleSlidesOnly{
+  width: 60%;
+  height: 15%;
+  margin: 30px auto;
 }
