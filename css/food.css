@@ -1,0 +1,93 @@
+.logo{
+    width: 35px;
+    padding-right: 5px;
+}
+
+body{
+    background-color: #f3e0dc;
+}
+
+.card-text{
+    color: #5c2018;
+}
+
+.carousel-inner{
+// height: 300px;
+}
+
+h1{
+    font-family:'Arizonia', cursive;
+    font-size: 120px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: black;
+    padding-top: 30px;
+}
+
+.how-to-navigate-text{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #5c2018;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.nav-color{
+    background-color: #5c2018;
+}
+
+.card{
+    color: black;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #5C2018;
+    color: #F3E0DC;
+}
+
+.footer .container:nth-child(1) {
+    border-bottom: dotted 1px #F3E0DC;
+}
+
+.footer-links {
+    color: #F3E0DC;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.small  {
+    font-size: 85%;
+}
+
+.form-control {
+    font-size: 15px;
+}
+
+label {
+    display: none;
+}
+
+#logo {
+    display: flex;
+    min-width: 0.5rem;
+}
+
+#logo img {
+    height: 40px;
+    margin: 0 7px;
+}
+
+.white-icon {
+    filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(238deg) brightness(99%) contrast(103%);
+}
+
