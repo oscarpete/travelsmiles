@@ -34,11 +34,9 @@ img {
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-img.pic2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.pic2{
+    display: flex;
+    justify-content: center;
 }
 
 .clearfix {
@@ -74,7 +72,7 @@ h2 {
 
 .parallax {
     /* The image used */
-    background-image: url("../img/cult1.jpg");
+    background-image: url("../img/culture/cult1.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -89,40 +87,55 @@ h2 {
 /* ---- paralax -- */
 
 
+/*--- footer ---*/
 
-footer {
-    position: fixed;
+
+/*--- footer ends---*/
+.footer {
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
     text-align: center;
-}
-a.button5{
-    display:inline-block;
-    padding:0.46em 1.6em;
-    border:0.1em solid #000000;
-    margin:0 0.2em 0.2em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#000000;
-    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-    background-color: green;
-    text-align:center;
-    transition: all 0.15s;
-}
-a.button5:hover{
-    text-shadow: 0 0 2em rgba(255,255,255,1);
-    color:#FFFFFF;
-    border-color:#FFFFFF;
+    background-color: #5C2018;
+    color: #F3E0DC;
 }
 
+.footer .container:nth-child(1) {
+    border-bottom: dotted 1px #F3E0DC;
+}
 
+.footer-links {
+    color: #F3E0DC;
+}
 
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.small  {
+    font-size: 85%;
+}
+
+.form-control {
+    font-size: 15px;
+}
+
+label {
+    display: none;
+}
+
+#logo {
+    display: flex;
+    min-width: 0.5rem;
+}
+
+#logo img {
+    height: 40px;
+    margin: 0 7px;
+}
+
+.white-icon {
+    filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(238deg) brightness(99%) contrast(103%);
+}
 
 /** ---------here goes the time line ---------  **/
 .timeline {
@@ -305,9 +318,7 @@ a.button5:hover{
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .pic {
-        width: 100%;
-    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
