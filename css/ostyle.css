@@ -17,6 +17,12 @@ body {
     width: 35px;
     padding-right: 5px;
 }
+.navbar {
+    color: #F3E0DC;
+}
+.bg-dark {
+    background-color: #5C2018!important;
+}
 
 .blok1 {
     margin: auto;
