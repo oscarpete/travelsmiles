@@ -41,6 +41,15 @@ main > .row {
     border-bottom: dotted 1px #5C2018;
 }
 
+.about-place {
+    color: #392323;
+}
+
+.card {
+    color: #F3E0DC;
+    background-color: #D4A59A;
+}
+
 .footer {
     left: 0;
     bottom: 0;
