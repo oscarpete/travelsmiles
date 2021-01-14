@@ -94,7 +94,7 @@ h2 {
 /*--- footer ---*/
 
 
-/*--- footer ends---*/
+
 .footer {
     left: 0;
     bottom: 0;
@@ -140,6 +140,7 @@ label {
 .white-icon {
     filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(238deg) brightness(99%) contrast(103%);
 }
+/*--- footer ends---*/
 
 /** ---------here goes the time line ---------  **/
 .timeline {
