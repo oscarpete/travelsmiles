@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Must-Go theres</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../css/places.css">
+</head>
+
+<body class="container bg-light">
+
+<header class="mb-5">
+
+    <!-- Navbar -->
+    <div id="navbar" class="container-fluid">
+
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="../img/Places/logo.png" class="logo" alt=""> Travelsmiles
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Places</a>
+                        <a class="nav-link" href="#">Culture</a>
+                        <a class="nav-link" href="#">Food</a>
+                        <a class="nav-link" href="#">Go there</a>
+                        <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide container-fluid" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid d-block w-100" src="../img/Places/petra1.jpg" alt="Petra">
+                <div class="mb-5 carousel-caption d-none d-md-block text-left">
+                    <h2>Petra</h2>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <a href="#about-petra" type="button" class="btn btn-primary">More info</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="../img/Places/wadirum1.jpg" alt="Wadi Rum">
+                <div class="mb-5 carousel-caption d-none d-md-block text-left">
+                    <h2>Wadi Rum</h2>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <a href="#about-wadirum" type="button" class="btn btn-primary">More info</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="../img/Places/deadsea1.jpg" alt="Dead Sea">
+                <div class="mb-5 carousel-caption d-none d-md-block text-left">
+                    <h2>Dead Sea</h2>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <a href="#about-deadsea" type="button" class="btn btn-primary">More info</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="../img/Places/amman.jpg" alt="Dead Sea">
+                <div class="mb-5 carousel-caption d-none d-md-block text-left">
+                    <h2>Amman</h2>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <a href="#about-amman" type="button" class="btn btn-primary">More info</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</header>
+
+<main class="container-fluid">
+
+    <!-- Petra Container-->
+    <div id="about-petra" class="row mb-5 pb-5">
+
+        <!-- About Petra -->
+        <div class="row mb-2 container-fluid">
+            <div class="about-place col text-center">
+                <h3>Petra</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aperiam dolor eos et
+                    excepturi facere maxime molestias optio praesentium provident, quod sunt tempora vero voluptatem!
+                    Harum
+                    in laboriosam quaerat.</p>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="card-deck container-fluid">
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block" src="../img/Places/alkhaznah.jpg"
+                     alt="Al Khaznah">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Al Khaznah</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block" src="../img/Places/monastery.jpeg"
+                     alt="The Monastery in Petra">
+                <div class="card-body text-center">
+                    <h4 class="card-title">The Monastery</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block" src="../img/Places/royaltombs.jpg"
+                     alt="Royal Tombs Petra">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Royal Tombs</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Wadi Rum Container -->
+    <div id="about-wadirum" class="row mb-5 pb-5">
+
+        <!-- about Wadi Rum -->
+        <div class="row mb-2 container-fluid">
+            <div class="about-place col text-center">
+                <h3 class="text-center">Wadi Rum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aperiam dolor eos et
+                    excepturi facere maxime molestias optio praesentium provident, quod sunt tempora vero voluptatem!
+                    Harum
+                    in laboriosam quaerat.
+                </p>
+            </div>
+        </div>
+
+        <!-- Wadi Rum Cards -->
+        <div class="card-deck container-fluid">
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block"
+                     src="../img/Places/jebelburdah.jpg"
+                     alt="Jebel Burdah">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Jebel Burdah</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block" src="../img/Places/alhasany.jpg"
+                     alt="Al Hasany Dunes">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Al Hasany Dunes</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block" src="../img/Places/sevenpillars.jpeg"
+                     alt="The seven pillars of wisdom">
+                <div class="card-body text-center">
+                    <h4 class="card-title">The Seven Pillars of Wisdom</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Dead Sea Container -->
+    <div id="about-deadsea" class="row mb-5 pb-5">
+
+        <!-- About Dead Sea-->
+        <div class="row mb-2 container-fluid">
+            <div class="about-place col text-center">
+                <h3>Dead Sea</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aperiam dolor eos
+                    et
+                    excepturi facere maxime molestias optio praesentium provident, quod sunt tempora vero
+                    voluptatem! Harum
+                    in laboriosam quaerat.</p>
+            </div>
+        </div>
+
+
+        <!-- Dead Sea cards -->
+        <div class="card-deck container-fluid">
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block"
+                     src="../img/Places/deadsea3.jpg"
+                     alt="Dead Sea Beach">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Beach</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block"
+                     src="../img/Places/wadimujib.jpg"
+                     alt="Wadi Mujib Siq">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Wadi Mujib Siq Trail</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block"
+                     src="../img/Places/mtnebo.jpeg"
+                     alt="Mount Nebo">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Mount Nebo</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Amman Container -->
+    <div id="about-amman" class="row mb-5 pb-5">
+
+        <!-- About Amman -->
+        <div class="row mb-2 container-fluid">
+            <div class="about-place col text-center">
+                <h3>Amman</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aperiam dolor
+                    eos et
+                    excepturi facere maxime molestias optio praesentium provident, quod sunt tempora vero
+                    voluptatem! Harum
+                    in laboriosam quaerat.</p>
+            </div>
+        </div>
+
+        <!-- Amman Cards -->
+        <!-- Cards -->
+        <div class="card-deck container-fluid">
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block"
+                     src="../img/Places/ammancitadel.jpg"
+                     alt="Amman Citadel">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Citadel</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block"
+                     src="../img/Places/romantheatre.jpg"
+                     alt="Roman Theatre">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Roman Theatre</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+
+            <div class="card border-0" style="width:400px">
+                <img class="w-75 mt-3 card-img-top rounded img-fluid mx-auto d-block"
+                     src="../img/Places/rainbowstreet.jpg"
+                     alt="Rainbow Street">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Rainbow Street</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">Go there</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="container-fluid footer text-center text-lg-start small pr-5 pl-5">
+
+    <!-- extensive footer -->
+    <div class="container">
+        <div class="row p-4">
+
+            <!-- find us column -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h6 class="text-center pl-4">Find us</h6>
+                <ul class="list-unstyled text-left p-2">
+                    <li>
+                        <img src="../img/Places/map.svg" alt="map" class="white-icon p-3"/><a class="footer-links"
+                            href="https://www.google.com/maps/place/BeCode+Antwerpen/@51.225583,4.3987072,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f7c8f74a11cd:0x56998eec0e4a84b7!8m2!3d51.2255797!4d4.4008959"
+                            target="_blank">Sint-Pietersvliet 7,
+                        2000 Antwerpen</a>
+                    </li>
+                    <li>
+                        <img src="../img/Places/email.svg" alt="email" class="white-icon p-3"/><a class="footer-links"
+                                                                                                  href="mailto:martedeleeuw@hotmail.com">travelsmiles@gmail.com</a>
+                    </li>
+                    <li>
+                        <img src="../img/Places/phone.svg" alt="phone" class="white-icon p-3"/>
+                        <a class="footer-links" href="tel:+32472816663">+32472816663</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Form column -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 small">
+                <form action="mailto:martedeleeuw@hotmail.com" enctype="text/plain">
+                    <h6 class="text-center pb-3">Contact us</h6>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="user-email" name="email"
+                               placeholder="name@example.com">
+                        <label for="user-email">Your e-mail</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="user-message" rows="3" name="message"
+                                  placeholder="your message"></textarea>
+                        <label for="user-message">Your message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- basic footer -->
+    <div class="container mt-3">
+
+        <!-- navbar -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="footer-links nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="footer-links nav-link" href="#">Places</a>
+            </li>
+            <li class="nav-item">
+                <a class="footer-links nav-link" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+                <a class="footer-links nav-link" href="#">Food</a>
+            </li>
+            <li class="nav-item">
+                <a class="footer-links nav-link" href="#">Go there</a>
+            </li>
+        </ul>
+
+        <!-- copyright -->
+        <p class="text-center">Copyright @2021 | Designed by <a href="#">Travelsmiles</a></p>
+
+        <!-- social media links -->
+        <div id="logo" class="d-flex justify-content-center pb-4">
+            <a href="https://github.com/oscarpete/travelsmiles" target="_blank"><img src="../img/Places/github.svg"
+                                                                                     alt="Github icon"/></a>
+            <a href="" target="_blank"><img src="../img/Places/facebook.svg" alt="Facebook icon"/></a>
+            <a href="" target="_blank"><img src="../img/Places/linkedin.svg" alt="Linkedin icon"/></a>
+            <a href="" target="_blank"><img src="../img/Places/instagram.svg" alt="Instagram icon"/></a>
+        </div>
+    </div>
+</footer>
+
+<!-- scripts -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
