@@ -1,0 +1,129 @@
+
+
+body {
+    background: linear-gradient(0deg, #f3e0dc 0%, #d4a59a 30%, #5c2018 100%) fixed;
+
+}
+.navbar {
+    background-color: #5c2018 !important;
+}
+
+.logo{
+    width: 35px;
+    padding-right: 5px;
+}
+
+.h4-header {
+font-family: 'Kaushan Script', cursive;
+    color: #fccec8;
+}
+
+.btn-primary {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+
+
+.card-img-top {
+    width: 100%
+    height: 100%
+
+}
+
+.card-body {
+    background-color: #f3e0dc;
+    box-shadow: 0 0 5px #484444;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+
+}
+.card-body a:hover{
+    color: #f3e0dc;
+    text-decoration: none;
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+.display-4 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 150px;
+
+    background-image: linear-gradient(0deg, #99594f 0%, #efbbb0 50%, #f3e0dc 100%);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+}
+.h4-header{
+    padding-top: 5%;
+    font-size: 160%;
+}
+
+.lead {
+    color: #f3e0dc;
+    text-align: center;
+    padding-top: 5%;
+}
+.card {
+    margin-inline: auto;
+}
+
+ul, li{
+    text-align: left;
+
+}
+.card-text{
+    text-align: left;
+    position: fixed;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #5C2018;
+    color: #F3E0DC;
+}
+
+.footer .container:nth-child(1) {
+    border-bottom: dotted 1px #F3E0DC;
+}
+
+.footer-links {
+    color: #F3E0DC;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.small  {
+    font-size: 85%;
+}
+
+.form-control {
+    font-size: 15px;
+}
+
+label {
+    display: none;
+}
+
+#logo {
+    display: flex;
+    min-width: 0.5rem;
+}
+
+#logo img {
+    height: 40px;
+    margin: 0 7px;
+}
+
+.white-icon {
+    filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(238deg) brightness(99%) contrast(103%);
+}
