@@ -72,7 +72,7 @@ h2 {
 
 .parallax {
     /* The image used */
-    background-image: url("../img/cult1.jpg");
+    background-image: url("../img/culture/cult1.jpg");
 
     /* Set a specific height */
     height: 500px;
