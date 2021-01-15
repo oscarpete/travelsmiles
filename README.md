@@ -59,21 +59,17 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I
-created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I
-think this is it.
+### Discover the beauty of Jordan
 
-Here's why:
+Travelsmiles organizes trips primarily to Jordan. Next to that we can also organize overland trips to Jordan’s neighboring countries in the Middle-East. We have extended knowledge of the region. We know our way around Jordan from our own experience for years on end. As a result Travelsmiles can compose nearly every program possible; meeting the customers’ individual groups needs and wishes. Travelsmiles is run & managed by a team of qualified professionals having years of experience in handling tourist from all around the world. In Jordan Travelsmiles tours you find almost all the information that related to anything and everything one needs to find out regarding a country that is very rich in culture and history. Travelling to Jordan with Travelsmiles will give travelers an opportunity to see the real colorful Jordan. We take pride in making every trip we organize a unique experience for our clients. We stand for offering a travel experience beyond belief.
 
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Here's why this porject is awesome:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near
-future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all
-the people have have contributed to expanding this template!
+* We were able to show our super powers!
+* We learned a lot about team work.
+* Jordan is an amazin place :smile:
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Of course, this is our first site!
 
 ### Built With
 
