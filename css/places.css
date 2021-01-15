@@ -1,28 +1,50 @@
+/* general styling */
+
+body {
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #5C2018 !important;
+}
+
+.bg-light {
+    background-color: #F3E0DC !important;
+}
+
+
+/* navbar */
+
 .navbar {
     color: #F3E0DC;
 }
 
-.logo{
+.logo {
     width: 35px;
     padding-right: 5px;
 }
 
-.bg-dark {
-    background-color: #5C2018!important;
-}
-
-.bg-light {
-    background-color: #F3E0DC!important;
-}
+/* carousel */
 
 .carousel-caption {
     color: #F3E0DC;
 }
 
-.carousel-caption > p, h2 {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 3px 25px;
+.carousel-text {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    padding: 3px 0;
+    margin-bottom: 30px;
 }
+
+.carousel-text > h1 {
+    font-size: 4vw;
+}
+
+.carousel-text > h3 {
+    font-size: 2vw;
+}
+
+/* buttons */
 
 .btn-primary {
     color: #F3E0DC;
@@ -34,6 +56,14 @@
     color: #F3E0DC;
     background-color: #0946a7;
     border-color: #4285F4;
+}
+
+/* main */
+
+@media (max-width: 576px) {
+    .card {
+        margin: 0 20px;
+    }
 }
 
 main > .row {
@@ -49,6 +79,25 @@ main > .row {
     color: #F3E0DC;
     background-color: #D4A59A;
 }
+
+#gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+
+    bottom: 10px;
+    right: 10px;
+    background: #BC4639;
+    color: #F3E0DC;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+/* footer */
 
 .footer {
     left: 0;
@@ -70,7 +119,7 @@ main > .row {
     text-decoration: underline;
 }
 
-.small  {
+.small {
     font-size: 85%;
 }
 
@@ -82,12 +131,12 @@ label {
     display: none;
 }
 
-#logo {
+#icon {
     display: flex;
     min-width: 0.5rem;
 }
 
-#logo img {
+#icon img {
     height: 40px;
     margin: 0 7px;
 }
