@@ -1,52 +1,3 @@
-# Title: Final HTML/CSS test
-- Repository: `name-of-your-business`
-- Type of Challenge: `Consolidation Challenge`
-- Duration: 4 days
-- Deployment strategy : Github page
-- Team challenge : `4+ People`
-
-## Learning objectives
-- Learn to work in group
-- Learn to complete a project so it can be delivered to a client
-
-## The mission 
-
-- Invent a company together and think of 1 page per person in your team, that the company needs.
-- Divide those pages amongst the group and each person designs one page.
-- Once you are all finished, join those pages together with some form of navigation
-- Publish the result with a github repository (call it `name-of-your-business`)
-- Make sure everyone in the group has a fork of the website
-- Explain your company in the readme of the repo and put a link to the company 'website' in there
-- Add a parallax image header [Example](https://demo.athemes.com/themes/?theme=Sydney)
-- Add a carousel on one page
-- Mke your website responsive
-- Mention your phone number somewhere on the onepager, if you click it should (try to) call you
-- Have a contact form, if you submit it it should send the form to an e-mail address.
-
-You can use bootstrap or SASS, but you are not required to use it. 
-However use of these tools will give you extra credit in the evaluation.
-
-You can choose the make the website in Dutch or English.
-
-## Assessment
-
-You will do some peer evaluation. Every group will evaluate one other group using the checklist below.    
-**Your group will also need to add at least one requirement.**
-
-## Adding your own requirement(s)
-1. Change this file (directly on github or fork this repo)
-2. Add the requirement(s) at the bottom
-3. Notify the group on ryver
-
-## What makes a good requirement?
-A good requirement for this list is something that people should have been doing already and that we now explicitly write down. It should not be things that would be nice to have, but things that are essential for every self respecting website in **2021**.
-
-## Doing the evaluation
-1. Create a file in this folder
-2. Copy the requirements below into it
-3. Tick the right boxes
-4. Commit/push the change
-
 ## Requirements
 
 ### Perfection is not a detail
@@ -167,3 +118,12 @@ A good requirement for this list is something that people should have been doing
 ### Errors are to be avoided
 - [ ] No http resources are used on an https website
 - [ ] The console shows no errors
+
+### Added requirements
+- [ ] There should be comments inside your html so that it becomes clear and structurized
+- [ ] Everyone should score 75%+ on the lighthouse test
+- [ ] Your page should have cards
+- [ ] Make sure your page has a search bar
+- [ ] Use a shadow on at least one section or item
+
+
