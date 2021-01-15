@@ -9,7 +9,10 @@ body{
   width: 35px;
   padding-right: 5px;
 }
-
+.searchbar {
+    float: right;
+    display: inline-block;
+}
 
 .container{
   max-width: 100%;
@@ -69,13 +72,13 @@ body{
   transform: scale(1.5);
 }
 
-.btn {
+.my-btn {
   background-color: #BC4639 ;
   border-radius: 15px ;
   color: #F3E0DC;
 }
 
-.btn:hover {
+.my-btn:hover {
   background-color: #5C2018 ;
   color: #F3E0DC;
 }
