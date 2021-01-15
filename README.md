@@ -196,4 +196,4 @@ Project Link: [https://github.com/oscarpete/travelsmiles](https://github.com/osc
 
 [linkedin-url]: https://www.linkedin.com/company/becode.org/
 
-[product-screenshot]: img/culture/screenshot.png
+[product-screenshot]: https://raw.githubusercontent.com/oscarpete/travelsmiles/main/img/culture/screenshot.PNG
