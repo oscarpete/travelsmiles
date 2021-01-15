@@ -120,10 +120,10 @@
 - [ ] The console shows no errors
 
 ### Added requirements
-- [ ] put comments inside your html so that it becomes clear and structurized
-- [ ] everyone is to score 75%+ on the lighthouse test
-- [ ] use cards
-- [ ] have a search bar
-- [ ] use a shadow on your section or item
+- [ ] There should be comments inside your html so that it becomes clear and structurized
+- [ ] Everyone should score 75%+ on the lighthouse test
+- [ ] Your page should have cards
+- [ ] Make sure your page has a search bar
+- [ ] Use a shadow on at least one section or item
 
 
