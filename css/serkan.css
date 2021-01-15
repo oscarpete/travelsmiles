@@ -155,7 +155,7 @@ label {
     display: none;
 }
 
-/* #logo {
+#logo {
     display: flex;
     min-width: 0.5rem;
 }
@@ -163,7 +163,7 @@ label {
 #logo img {
     height: 40px;
     margin: 0 7px;
-} */
+}
 
 .white-icon {
     filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(238deg) brightness(99%) contrast(103%);
