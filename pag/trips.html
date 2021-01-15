@@ -27,10 +27,12 @@
     <!-- personal CSS -->
     <link rel="stylesheet" href="../css/trips.css">
     <link rel="shortcut icon" type="image/png" href="../favicon.ico">
-    <title>Travelsmiles-Trips</title>
+    <title>Travelsmiles - Trips</title>
 </head>
 <body>
 <header>
+
+    <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="">
@@ -49,6 +51,10 @@
                     <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
                 </div>
             </div>
+            <form class="form-inline d-none d-lg-block">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
 </header>
@@ -195,10 +201,11 @@
 
             <!-- Form column -->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0 small">
-                <form action="mailto:martedeleeuw@hotmail.com" enctype="text/plain">
+                <form action="https://formspree.io/f/mbjpqvgk"
+                      method="POST">
                     <h6 class="text-center pb-3">Contact us</h6>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="user-email" name="email"
+                        <input type="email" class="form-control" id="user-email" name="_replyto"
                                placeholder="name@example.com">
                         <label for="user-email">Your e-mail</label>
                     </div>
@@ -241,9 +248,12 @@
     <div id="logo" class="d-flex justify-content-center pb-4">
         <a href="https://github.com/oscarpete/travelsmiles" target="_blank"><img src="../img/Places/github.svg"
                                                                                  alt="Github icon"/></a>
-        <a href="" target="_blank"><img src="../img/Places/facebook.svg" alt="Facebook icon"/></a>
-        <a href="" target="_blank"><img src="../img/Places/linkedin.svg" alt="Linkedin icon"/></a>
-        <a href="" target="_blank"><img src="../img/Places/instagram.svg" alt="Instagram icon"/></a>
+        <a href="https://www.facebook.com/TheJordanCountry/" target="_blank"><img src="../img/Places/facebook.svg"
+                                                                                  alt="Facebook icon"/></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="../img/Places/linkedin.svg"
+                                                                      alt="Linkedin icon"/></a>
+        <a href="https://www.instagram.com/visitjordan/" target="_blank"><img src="../img/Places/instagram.svg"
+                                                                              alt="Instagram icon"/></a>
     </div>
 </div>
 </footer>
