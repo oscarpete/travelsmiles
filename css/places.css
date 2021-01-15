@@ -2,6 +2,7 @@
 
 body {
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bg-dark {
@@ -69,6 +70,10 @@ body {
 main > .row {
     margin-bottom: 20px;
     border-bottom: dotted 1px #5C2018;
+}
+
+main > .last-row {
+    border: none;
 }
 
 .about-place {
