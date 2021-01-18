@@ -1,7 +1,7 @@
 ## Requirements
 
 ### Perfection is not a detail
-- [ ] All buttons and links work
+- [x] All buttons and links work
 - [ ] All elements work and are complete (menu, lists, images, ...)
 - [ ] Everything on the page has a function, a reason to be there
 - [ ] No dead links
